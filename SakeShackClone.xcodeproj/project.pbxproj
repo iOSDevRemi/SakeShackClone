@@ -3,27 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55285CB323A007B10077474F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285CB223A007B10077474F /* Extension.swift */; };
+		5531410F238E95AC00187D46 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531410E238E95AC00187D46 /* Users.swift */; };
+		55314111238E9C8500187D46 /* FirstNameTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314110238E9C8500187D46 /* FirstNameTextFieldView.swift */; };
+		55314113238E9D7B00187D46 /* LastNameTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314112238E9D7B00187D46 /* LastNameTextFieldView.swift */; };
+		55314115238EA3FF00187D46 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314114238EA3FF00187D46 /* PasswordTextFieldView.swift */; };
+		55314117238EA90500187D46 /* SetPasswordTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314116238EA90500187D46 /* SetPasswordTextView.swift */; };
+		55314119238EAA2500187D46 /* RulesTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314118238EAA2500187D46 /* RulesTextView.swift */; };
+		5531411B238EB05B00187D46 /* KeppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531411A238EB05A00187D46 /* KeppTextView.swift */; };
+		5531411D238EB14200187D46 /* PhoneNumberTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531411C238EB14200187D46 /* PhoneNumberTextFieldView.swift */; };
+		5531411F238EB26900187D46 /* SignUpToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531411E238EB26900187D46 /* SignUpToggleView.swift */; };
+		55314121238F1FB000187D46 /* SignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314120238F1FB000187D46 /* SignInButtonView.swift */; };
+		55314127238F2D4700187D46 /* FirabaseUtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314126238F2D4700187D46 /* FirabaseUtiles.swift */; };
+		553282A523AA815600C8BF08 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553282A423AA815600C8BF08 /* MenuView.swift */; };
+		553282A723AA81E800C8BF08 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553282A623AA81E800C8BF08 /* TopMenuView.swift */; };
+		553282A923AA8B5B00C8BF08 /* ListMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553282A823AA8B5B00C8BF08 /* ListMenuView.swift */; };
 		554032522375F92E004FD72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554032512375F92E004FD72E /* AppDelegate.swift */; };
 		554032542375F92E004FD72E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554032532375F92E004FD72E /* SceneDelegate.swift */; };
-		554032562375F92E004FD72E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554032552375F92E004FD72E /* ContentView.swift */; };
+		554032562375F92E004FD72E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554032552375F92E004FD72E /* WelcomeView.swift */; };
 		554032582375F930004FD72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554032572375F930004FD72E /* Assets.xcassets */; };
 		5540325B2375F930004FD72E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5540325A2375F930004FD72E /* Preview Assets.xcassets */; };
 		5540325E2375F930004FD72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5540325C2375F930004FD72E /* LaunchScreen.storyboard */; };
+		554032672375FB50004FD72E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554032662375FB50004FD72E /* BackgroundView.swift */; };
+		5540326A237600DD004FD72E /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55403269237600DD004FD72E /* MenuButtonView.swift */; };
+		5540326C237604DE004FD72E /* WelcomeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540326B237604DE004FD72E /* WelcomeTextView.swift */; };
+		5540326E23760607004FD72E /* SignInOrCreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540326D23760607004FD72E /* SignInOrCreateButtonView.swift */; };
+		5540327023760C9F004FD72E /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540326F23760C9F004FD72E /* WelcomeBottomView.swift */; };
+		5540327223760EB3004FD72E /* WelcomeBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540327123760EB3004FD72E /* WelcomeBottomButtonView.swift */; };
+		55BC4ED92384484000C76CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BC4ED82384484000C76CA2 /* GoogleService-Info.plist */; };
+		55BC4EDD23844B5200C76CA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC4EDC23844B5200C76CA2 /* LoginView.swift */; };
+		55BC4EDF2384504C00C76CA2 /* GetTheGoodsText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC4EDE2384504C00C76CA2 /* GetTheGoodsText.swift */; };
+		55BC4EE12384512D00C76CA2 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC4EE02384512D00C76CA2 /* LoginTextFieldView.swift */; };
+		55BC4EE3238454D500C76CA2 /* LoginButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC4EE2238454D500C76CA2 /* LoginButtonsView.swift */; };
+		55BC4EE523845A0F00C76CA2 /* ContinueButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC4EE423845A0F00C76CA2 /* ContinueButtonView.swift */; };
+		EB2BE1BDE29812C69525BCA7 /* Pods_SakeShackClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A74F81853E0F84EB1C9D50 /* Pods_SakeShackClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55285CB223A007B10077474F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5531410E238E95AC00187D46 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		55314110238E9C8500187D46 /* FirstNameTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameTextFieldView.swift; sourceTree = "<group>"; };
+		55314112238E9D7B00187D46 /* LastNameTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameTextFieldView.swift; sourceTree = "<group>"; };
+		55314114238EA3FF00187D46 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
+		55314116238EA90500187D46 /* SetPasswordTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordTextView.swift; sourceTree = "<group>"; };
+		55314118238EAA2500187D46 /* RulesTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesTextView.swift; sourceTree = "<group>"; };
+		5531411A238EB05A00187D46 /* KeppTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeppTextView.swift; sourceTree = "<group>"; };
+		5531411C238EB14200187D46 /* PhoneNumberTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextFieldView.swift; sourceTree = "<group>"; };
+		5531411E238EB26900187D46 /* SignUpToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpToggleView.swift; sourceTree = "<group>"; };
+		55314120238F1FB000187D46 /* SignInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButtonView.swift; sourceTree = "<group>"; };
+		55314126238F2D4700187D46 /* FirabaseUtiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirabaseUtiles.swift; sourceTree = "<group>"; };
+		553282A423AA815600C8BF08 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		553282A623AA81E800C8BF08 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		553282A823AA8B5B00C8BF08 /* ListMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuView.swift; sourceTree = "<group>"; };
 		5540324E2375F92E004FD72E /* SakeShackClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakeShackClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554032512375F92E004FD72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554032532375F92E004FD72E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		554032552375F92E004FD72E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		554032552375F92E004FD72E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		554032572375F930004FD72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5540325A2375F930004FD72E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5540325D2375F930004FD72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5540325F2375F930004FD72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554032662375FB50004FD72E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		55403269237600DD004FD72E /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		5540326B237604DE004FD72E /* WelcomeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTextView.swift; sourceTree = "<group>"; };
+		5540326D23760607004FD72E /* SignInOrCreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateButtonView.swift; sourceTree = "<group>"; };
+		5540326F23760C9F004FD72E /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
+		5540327123760EB3004FD72E /* WelcomeBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonView.swift; sourceTree = "<group>"; };
+		55BC4ED82384484000C76CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55BC4EDC23844B5200C76CA2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		55BC4EDE2384504C00C76CA2 /* GetTheGoodsText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheGoodsText.swift; sourceTree = "<group>"; };
+		55BC4EE02384512D00C76CA2 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		55BC4EE2238454D500C76CA2 /* LoginButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonsView.swift; sourceTree = "<group>"; };
+		55BC4EE423845A0F00C76CA2 /* ContinueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonView.swift; sourceTree = "<group>"; };
+		5D527E73D6EC89F8F3B4F28E /* Pods-SakeShackClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakeShackClone.release.xcconfig"; path = "Target Support Files/Pods-SakeShackClone/Pods-SakeShackClone.release.xcconfig"; sourceTree = "<group>"; };
+		9F60DF64DAD1E3FA6F503F5E /* Pods-SakeShackClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakeShackClone.debug.xcconfig"; path = "Target Support Files/Pods-SakeShackClone/Pods-SakeShackClone.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A74F81853E0F84EB1C9D50 /* Pods_SakeShackClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakeShackClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2BE1BDE29812C69525BCA7 /* Pods_SakeShackClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1589D537251A751D90B91511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F60DF64DAD1E3FA6F503F5E /* Pods-SakeShackClone.debug.xcconfig */,
+				5D527E73D6EC89F8F3B4F28E /* Pods-SakeShackClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55285CB123A0079B0077474F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55285CB223A007B10077474F /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5531410D238E959A00187D46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5531410E238E95AC00187D46 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55314122238F20DA00187D46 /* UserService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserService;
+			sourceTree = "<group>";
+		};
+		55314125238F2D2400187D46 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				55314126238F2D4700187D46 /* FirabaseUtiles.swift */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		553282A323AA80BF00C8BF08 /* MenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				553282A423AA815600C8BF08 /* MenuView.swift */,
+				553282A623AA81E800C8BF08 /* TopMenuView.swift */,
+				553282A823AA8B5B00C8BF08 /* ListMenuView.swift */,
+			);
+			path = MenuViews;
+			sourceTree = "<group>";
+		};
 		554032452375F92D004FD72E = {
 			isa = PBXGroup;
 			children = (
 				554032502375F92E004FD72E /* SakeShackClone */,
 				5540324F2375F92E004FD72E /* Products */,
+				1589D537251A751D90B91511 /* Pods */,
+				DE01A513F832F277591C33B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +167,18 @@
 		554032502375F92E004FD72E /* SakeShackClone */ = {
 			isa = PBXGroup;
 			children = (
-				554032512375F92E004FD72E /* AppDelegate.swift */,
-				554032532375F92E004FD72E /* SceneDelegate.swift */,
-				554032552375F92E004FD72E /* ContentView.swift */,
+				55285CB123A0079B0077474F /* Extension */,
+				55314125238F2D2400187D46 /* Utiles */,
+				55314122238F20DA00187D46 /* UserService */,
+				5531410D238E959A00187D46 /* Model */,
+				553282A323AA80BF00C8BF08 /* MenuViews */,
+				55BC4EDB23844B1900C76CA2 /* LoginViews */,
+				554032652375FA24004FD72E /* WelcomeViews */,
+				55BC4EDA23844AC700C76CA2 /* AppDelegate */,
 				554032572375F930004FD72E /* Assets.xcassets */,
 				5540325C2375F930004FD72E /* LaunchScreen.storyboard */,
 				5540325F2375F930004FD72E /* Info.plist */,
+				55BC4ED82384484000C76CA2 /* GoogleService-Info.plist */,
 				554032592375F930004FD72E /* Preview Content */,
 			);
 			path = SakeShackClone;
@@ -75,6 +192,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		554032652375FA24004FD72E /* WelcomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				554032552375F92E004FD72E /* WelcomeView.swift */,
+				554032662375FB50004FD72E /* BackgroundView.swift */,
+				55403269237600DD004FD72E /* MenuButtonView.swift */,
+				5540326B237604DE004FD72E /* WelcomeTextView.swift */,
+				5540326D23760607004FD72E /* SignInOrCreateButtonView.swift */,
+				5540326F23760C9F004FD72E /* WelcomeBottomView.swift */,
+				5540327123760EB3004FD72E /* WelcomeBottomButtonView.swift */,
+			);
+			path = WelcomeViews;
+			sourceTree = "<group>";
+		};
+		55BC4EDA23844AC700C76CA2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				554032512375F92E004FD72E /* AppDelegate.swift */,
+				554032532375F92E004FD72E /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		55BC4EDB23844B1900C76CA2 /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				55BC4EDC23844B5200C76CA2 /* LoginView.swift */,
+				55BC4EDE2384504C00C76CA2 /* GetTheGoodsText.swift */,
+				55BC4EE02384512D00C76CA2 /* LoginTextFieldView.swift */,
+				55BC4EE2238454D500C76CA2 /* LoginButtonsView.swift */,
+				55BC4EE423845A0F00C76CA2 /* ContinueButtonView.swift */,
+				55314110238E9C8500187D46 /* FirstNameTextFieldView.swift */,
+				55314112238E9D7B00187D46 /* LastNameTextFieldView.swift */,
+				55314114238EA3FF00187D46 /* PasswordTextFieldView.swift */,
+				55314116238EA90500187D46 /* SetPasswordTextView.swift */,
+				55314118238EAA2500187D46 /* RulesTextView.swift */,
+				5531411A238EB05A00187D46 /* KeppTextView.swift */,
+				5531411C238EB14200187D46 /* PhoneNumberTextFieldView.swift */,
+				5531411E238EB26900187D46 /* SignUpToggleView.swift */,
+				55314120238F1FB000187D46 /* SignInButtonView.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		DE01A513F832F277591C33B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A74F81853E0F84EB1C9D50 /* Pods_SakeShackClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 554032622375F930004FD72E /* Build configuration list for PBXNativeTarget "SakeShackClone" */;
 			buildPhases = (
+				1D730A511450ED1ED2B488C0 /* [CP] Check Pods Manifest.lock */,
 				5540324A2375F92E004FD72E /* Sources */,
 				5540324B2375F92E004FD72E /* Frameworks */,
 				5540324C2375F92E004FD72E /* Resources */,
+				1D7AB5DC3A50E310A51B9428 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BC4ED92384484000C76CA2 /* GoogleService-Info.plist in Resources */,
 				5540325E2375F930004FD72E /* LaunchScreen.storyboard in Resources */,
 				5540325B2375F930004FD72E /* Preview Assets.xcassets in Resources */,
 				554032582375F930004FD72E /* Assets.xcassets in Resources */,
@@ -141,14 +313,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D730A511450ED1ED2B488C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SakeShackClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D7AB5DC3A50E310A51B9428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SakeShackClone/Pods-SakeShackClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SakeShackClone/Pods-SakeShackClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SakeShackClone/Pods-SakeShackClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5540324A2375F92E004FD72E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55314121238F1FB000187D46 /* SignInButtonView.swift in Sources */,
+				55BC4EE12384512D00C76CA2 /* LoginTextFieldView.swift in Sources */,
+				55314119238EAA2500187D46 /* RulesTextView.swift in Sources */,
+				55314113238E9D7B00187D46 /* LastNameTextFieldView.swift in Sources */,
+				55314117238EA90500187D46 /* SetPasswordTextView.swift in Sources */,
 				554032522375F92E004FD72E /* AppDelegate.swift in Sources */,
 				554032542375F92E004FD72E /* SceneDelegate.swift in Sources */,
-				554032562375F92E004FD72E /* ContentView.swift in Sources */,
+				5540326C237604DE004FD72E /* WelcomeTextView.swift in Sources */,
+				55314111238E9C8500187D46 /* FirstNameTextFieldView.swift in Sources */,
+				55285CB323A007B10077474F /* Extension.swift in Sources */,
+				5540326E23760607004FD72E /* SignInOrCreateButtonView.swift in Sources */,
+				55314115238EA3FF00187D46 /* PasswordTextFieldView.swift in Sources */,
+				554032672375FB50004FD72E /* BackgroundView.swift in Sources */,
+				553282A923AA8B5B00C8BF08 /* ListMenuView.swift in Sources */,
+				5540326A237600DD004FD72E /* MenuButtonView.swift in Sources */,
+				5531411F238EB26900187D46 /* SignUpToggleView.swift in Sources */,
+				5531410F238E95AC00187D46 /* Users.swift in Sources */,
+				5531411B238EB05B00187D46 /* KeppTextView.swift in Sources */,
+				5531411D238EB14200187D46 /* PhoneNumberTextFieldView.swift in Sources */,
+				5540327023760C9F004FD72E /* WelcomeBottomView.swift in Sources */,
+				5540327223760EB3004FD72E /* WelcomeBottomButtonView.swift in Sources */,
+				55BC4EE523845A0F00C76CA2 /* ContinueButtonView.swift in Sources */,
+				55BC4EDD23844B5200C76CA2 /* LoginView.swift in Sources */,
+				553282A523AA815600C8BF08 /* MenuView.swift in Sources */,
+				55BC4EE3238454D500C76CA2 /* LoginButtonsView.swift in Sources */,
+				554032562375F92E004FD72E /* WelcomeView.swift in Sources */,
+				55314127238F2D4700187D46 /* FirabaseUtiles.swift in Sources */,
+				55BC4EDF2384504C00C76CA2 /* GetTheGoodsText.swift in Sources */,
+				553282A723AA81E800C8BF08 /* TopMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +522,7 @@
 		};
 		554032632375F930004FD72E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F60DF64DAD1E3FA6F503F5E /* Pods-SakeShackClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +537,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevremi.SakeShackClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		554032642375F930004FD72E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D527E73D6EC89F8F3B4F28E /* Pods-SakeShackClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevremi.SakeShackClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
